@@ -1,7 +1,9 @@
 # kotlin-best-practices
 Kotlin - Best Practices
 
-Baseado nesse artigo: [idiomatic-kotlin-best-practices](https://phauer.com/2017/idiomatic-kotlin-best-practices/)
+Baseado em:
+- [idiomatic-kotlin-best-practices](https://phauer.com/2017/idiomatic-kotlin-best-practices/)
+- [kotlin-combating-non-null-assertions](https://medium.com/@igorwojda/kotlin-combating-non-null-assertions-5282d7b97205)
 
 ## Programação Funcional
 <p>Entre outras vantagens, a programação funcional nos permite reduzir os efeitos colaterais, o que torna nosso código…</p>
