@@ -1,8 +1,5 @@
 package best.practices
 
-import functional.programming.StringUtil
-import functional.programming.countAmountOfX
-
 //Back in Java, fluent setters where used to simulate named and default arguments and avoid huge parameter lists (error-prone and hard to read).
 class SearchConfig {
     fun setRoot(s: String): SearchConfig { return this }
@@ -20,9 +17,9 @@ val config = SearchConfig()
 
 //in kotlin, named and default arguments are built into the language
 val config2 = SearchConfig2(
-    root = "~/folder",
     term = "kotlin",
     recursive = true,
+    root = "~/folder",
     followSymlinks = true
 )
 

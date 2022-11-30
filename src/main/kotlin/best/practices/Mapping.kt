@@ -1,8 +1,5 @@
 package best.practices
 
-import functional.programming.getDefaultLocale
-import functional.programming.getDefaultLocale2
-import functional.programming.message
 import java.time.Instant
 
 data class SnippetDTO(
