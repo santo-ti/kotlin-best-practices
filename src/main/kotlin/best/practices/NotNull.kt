@@ -25,7 +25,7 @@ fun nullSafe(order: Order?): String {
     //or
     val city2 = order?.customer?.address?.city ?: "City Default"
     //or
-    val city3 = order?.customer?.address?.city ?: throw IllegalArgumentException("Invalid Order")
+//    val city3 = order?.customer?.address?.city ?: throw IllegalArgumentException("Invalid Order")
     //...
     //..
     val service = OtherService();
