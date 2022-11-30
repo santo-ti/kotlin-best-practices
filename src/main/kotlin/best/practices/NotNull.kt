@@ -29,12 +29,19 @@ fun nullSafe(order: Order?): String {
 }
 
 fun main(args: Array<String>) {
-    println(notNull(null))
+//    println(notNull(null))
 
     try {
         println("notNull:")
         println(notNull(null))
     } catch (ex: NullPointerException) {
+        println("Exception: ${ex.message}")
+    }
+
+    try {
+        println("nullSafe:")
+        println(nullSafe(null))
+    } catch (ex: Exception) {
         println("Exception: ${ex.message}")
     }
 }
