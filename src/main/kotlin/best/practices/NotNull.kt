@@ -22,6 +22,10 @@ fun notNull(order: Order?): String {
 fun nullSafe(order: Order?): String {
     // Safe call operator will keep the code safe and make sure that NullPointerException will never happen.
     val city = order?.customer?.address?.city
+    //or
+    val city2 = order?.customer?.address?.city ?: "City Default"
+    //or
+    val city3 = order?.customer?.address?.city ?: throw IllegalArgumentException("Invalid Order")
     //...
     //..
     val service = OtherService();
